@@ -1,0 +1,63 @@
+*{
+    box-sizing : border-box;
+    font-family: 'Pixelify Sans', sans-serif;
+    color : white
+}
+
+
+.menuBox{
+    display : flex;
+    flex-direction: column;
+    justify-content :space-evenly ;
+    grid-area: 1 / 1 / 2 / 6; 
+}
+.bouton{
+    width : 200px;
+    height : 60px;
+    margin : 15px;
+    background : linear-gradient(12deg, rgba(53,255,20,1) 0%, rgba(0,0,0,1) 50%, rgba(50,252,17,1) 100%);
+    color : rgb(0, 255, 38);
+    font-size : 1.5em;
+}
+.bouton:hover{
+    background : linear-gradient(70deg, rgb(19, 94, 8) 0%, rgb(30, 30, 30) 50%, rgb(26, 128, 10) 100%);
+    box-shadow: 10px 10px 30px 10px rgb(0, 255, 34);
+    cursor: pointer;
+}
+body{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background: rgb(53,255,20);
+    background: linear-gradient(150deg, rgba(53,255,20,1) 0%, rgba(0,0,0,1) 50%, rgba(50,252,17,1) 100%);
+    background-repeat: no-repeat;
+    
+}
+.titre{
+    grid-area: 2 / 1 / 3 / 5;
+}
+.expPro{
+    grid-area: 3 / 2 / 7 / 5;
+}
+.objectif{
+    grid-area: 7 / 2 / 9 / 5;
+}
+.photodeprofil{
+    grid-area: 2 / 5 / 7 / 6;
+}
+.interest{
+    grid-area: 9 / 2 / 11 / 5;
+}
+.languesETlog{
+    grid-area: 7 / 5 / 11 / 6;
+}
+.formations{
+    grid-area: 9 / 2 / 11 / 5;
+}
+.etatCivil{
+    grid-area: 7 / 5 / 11 / 6;
+}
+
+
